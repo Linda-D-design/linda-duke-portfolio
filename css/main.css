@@ -1,0 +1,175 @@
+/**** Header ****/
+
+header {
+  height: 800px;
+  background: url('../img/hero-image.jpg');
+  background-size: cover;
+}
+header h1 {
+  font-size: 55px;
+  font-family: "Roboto Slab", serif;
+  color: rgb(189, 191, 9);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+    left: 307.039px;
+    top: 342.672px;
+    width: 700px;
+    height: 47px;
+    z-index: 53;
+}
+header p {
+  font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(9, 82, 86);
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 304.039px;
+    top: 442.938px;
+    width: 751px;
+    height: 100px;
+    z-index: 52;
+}
+  
+  /***** GRID *****/
+
+  .full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+main p {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+main h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+main h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+  /**** Work ****/
+
+#work { 
+  border-width: 1px;
+  height: 1450px;
+}
+#work h3 {
+  color: black;
+}
+#work h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  clear: both;
+}
+#work p {
+  color: black;
+}
+#work .half-width {
+    width: 600px;
+    float: left;
+}
+
+.thumbnail {
+  height: 475px;
+  width: 600px;
+  float: left;
+}
+
+.description {
+  height: 475px;
+  width: 550px;
+  float: right;
+}
+
+  /**** About ****/
+
+#about {
+  height: 650px;
+  background: url('../img/aboutmebackgroundcolor.png');
+  background-size: cover;
+  }
+
+  #about .half-width {
+    width: 600px;
+    float: left;
+}
+
+  #about img {
+    padding-left: 100px;
+  }
+
+  #about h2, h3, p {
+    color: white;
+  }
+  
+
+  /**** Contact ****/
+
+#contact {
+  height: 400px;
+  background: url('../img/background.png');
+  background-size: cover;
+}
+
+#contact h2 {
+  color: white;
+}
+#contact .half-width {
+  width: 600px;
+  float: left;
+  text-align: center;
+}
+#contact h3 {
+  line-height: 44px;
+  text-align: center;
+  color: white;
+
+}
+#contact a {
+  color: white;
+  line-height: normal;
+}
+  #contact ul {
+    list-style-position: center;
+}
+  #contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+  font-size: 32px;
+    font-size: 32px;
+    padding-right: 48px;
+}
+
+#contact address {
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+/**** Footer ****/
+
+#copyright h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+
+
+
+  
